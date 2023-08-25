@@ -7,8 +7,16 @@ h2 {
   font-size: 32px;
   margin: 0 0 5px;
 }
+a {
+  padding-left: 8px;
+  color: #43b02a;
+}
+a:hover {
+  color: #63666a;
+}
+
 body {
-  background-color: aliceblue;
+  background-color: #aadb9f;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #63666a;
 }
@@ -17,13 +25,13 @@ select {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
-  border-color: #63666a;
+  border-color: #43b02a;
   font-size: 18px;
 }
 footer {
   margin-top: 40px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 .container {
   margin: 0 auto;
@@ -32,7 +40,7 @@ footer {
   padding: 40px;
   margin-top: 40px;
   border-radius: 4px;
-  box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 20px rgb(0 0 0 / 0.6);
 }
 
 .date {
@@ -42,9 +50,9 @@ footer {
 .city {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
-  padding: 20px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  margin: 20px 0px 10px 0px;
+  padding: 20px 8px;
+  border-bottom: 1px dashed #aadb9f;
 }
 .city:last-child {
   border: none;
