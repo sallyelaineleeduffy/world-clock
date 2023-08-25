@@ -1,6 +1,58 @@
 h1 {
   text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 32px;
+  margin: 0 0 5px;
+}
+body {
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #63666a;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border-color: #63666a;
+  font-size: 18px;
 }
 footer {
+  margin-top: 40px;
   text-align: center;
+  font-size: 12px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: white;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 4px;
+  box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+}
+
+.date {
+  font-size: 18px;
+  opacity: 0.9;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+.time {
+  font-size: 40px;
+}
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
 }
